@@ -115,3 +115,6 @@ hr {
     margin-bottom: -10px;
     margin-top: 10px;
 }
+a,a::after {
+    text-decoration: none;
+}
