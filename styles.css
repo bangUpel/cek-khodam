@@ -8,11 +8,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url(/Sesi_6/kodam.jpg);
+  background: url(/kodam.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
+}
+a, a::after {
+  text-decoration: none;
 }
 
 #container, #checked {
