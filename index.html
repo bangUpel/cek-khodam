@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pengecekan khodam online</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="/styles.css" />
+=======
+    <link rel="stylesheet" href="/styles.css" /> 
+>>>>>>> 17a8ff96f9aeacec1a7bd48459fc3245ec4b6209
   </head>
   <body>
     <div id="centered">
@@ -148,7 +152,134 @@
       function back() {
         container.style.display = "block";
         checked.style.display = "none";
+<<<<<<< HEAD
       }
     </script>
   </body>
 </html>
+=======
+    
+        let min = 1;
+        let max = 20;
+    
+        function check() {
+          let nama = namaInput.value.trim(); // Ambil nilai dari input nama dan hapus spasi di awal dan akhir
+          if (nama.length === 0) {
+            alert("Tolong masukkan nama anda!");
+          } else {
+            let randomInt = Math.floor(Math.random() * (max - min + 1)) + min;
+            console.log(randomInt);
+            checked.style.display = "block";
+            container.style.display = "none";
+            head.textContent = `${nama}, khodam anda adalah :`;
+    
+            if (randomInt === 1) {
+              img.src = "/khodam/ayamgeprek.jpg";
+              namaKhodam.textContent = 'AYAM GEPREK';
+              komentar.textContent = "\"lezat dan bergizi 😋\"";
+            }
+            else if (randomInt === 2) {
+              img.src = "/khodam/bajol.jpeg";
+              namaKhodam.textContent = 'BUAYA DARAT';
+              komentar.textContent = "\"CABOEL 🥶\"";
+            }
+            else if (randomInt === 3 ) {
+              img.src = "/khodam/tuyul.jpeg";
+              namaKhodam.textContent = 'TUYUL';
+              komentar.textContent = "\"pencuri profesional 😏\"";
+            }
+            else if (randomInt === 4) {
+              img.src = "/khodam/tolakangin.jpg";
+              namaKhodam.textContent = 'TOLAK ANGIN';
+              komentar.textContent = "\"penolak handal 🥶\"";
+            }
+            else if (randomInt === 5) {
+                img.src = "/khodam/harimau.jpg";
+                namaKhodam.textContent = 'AING MAUNG';
+                komentar.textContent = "\"Tampan dan pemberani 🥰\"";
+            }
+            else if (randomInt === 6) {
+                img.src = "/khodam/kosong.jpg";
+                namaKhodam.textContent = 'KOSONG';
+                komentar.textContent = "\"...\"";
+            }
+            else if (randomInt === 7) {
+                img.src = "/khodam/kudanil.jpeg";
+                namaKhodam.textContent = 'KUDANIL BUNTING';
+                komentar.textContent = "\"ALAMAKKKK 😱😱😱\"";
+            }
+            else if (randomInt === 8) {
+                img.src = "/khodam/gardu.jpeg";
+                namaKhodam.textContent = 'GARDU PLN';
+                komentar.textContent = "\"Bertegangan tinggi 😨\"";
+            }
+            else if (randomInt === 9) {
+                img.src = "/khodam/juan.jpg";
+                namaKhodam.textContent = 'JUAN';
+                komentar.textContent = "\"😔\"";
+            }
+            else if (randomInt === 10) {
+                img.src = "/khodam/lohan.jpeg";
+                namaKhodam.textContent = 'LOHAN MUALLAF';
+                komentar.textContent = "\"alhamdulillah 😇\"";
+            }
+            else if (randomInt === 11) {
+                img.src = "/khodam/anjim.jpg";
+                namaKhodam.textContent = 'LORD ANJIM';
+                komentar.textContent = "\"😩\"";
+            }
+            else if (randomInt === 12) {
+                img.src = "/khodam/naga.jpeg";
+                namaKhodam.textContent = 'NAGA BEAR BRAND';
+                komentar.textContent = "\"😋\"";
+            }
+            else if (randomInt === 13) {
+                img.src = "/khodam/kiko.jpeg";
+                namaKhodam.textContent = 'KIKO';
+                komentar.textContent = "\"😂\"";
+            }
+            else if (randomInt === 14) {
+                img.src = "/khodam/alok.jpg";
+                namaKhodam.textContent = 'ALOK';
+                komentar.textContent = "\"bocil EPEP 😨\"";
+            }
+            else if (randomInt === 15) {
+                img.src = "/khodam/charger.jpeg";
+                namaKhodam.textContent = 'CHARGER XIAOMI';
+                komentar.textContent = "\"fast charging 😏\"";
+            }
+            else if (randomInt === 16) {
+                img.src = "/khodam/einstein.jpg";
+                namaKhodam.textContent = 'ALBERT EINSTEIN';
+                komentar.textContent = "\"jenius 🤯\"";
+            }
+            else if (randomInt === 17) {
+                img.src = "/khodam/keris.jpeg";
+                namaKhodam.textContent = 'KERIS SIAMANG TUNGGAL';
+                komentar.textContent = "\"ready by1😎\"";
+            }
+            else if (randomInt === 18) {
+                img.src = "/khodam/barongsai.jpeg";
+                namaKhodam.textContent = 'BARONGSAI';
+                komentar.textContent = "\"jago akrobat 😯\"";
+            }
+            else if (randomInt === 19) {
+                img.src = "/khodam/badut.jpeg";
+                namaKhodam.textContent = 'BADUT MIXUE';
+                komentar.textContent = "\"🤡\"";
+            }
+            else if (randomInt === 20) {
+                img.src = "/khodam/singa.jpeg";
+                namaKhodam.textContent = 'SINGA API';
+                komentar.textContent = "\"sheeeshh 😬\"";
+            }
+          }
+        }
+        function back(){
+            container.style.display = "block";
+            checked.style.display = "none";
+        }
+      </script>
+    </body>
+    </html>
+>>>>>>> 17a8ff96f9aeacec1a7bd48459fc3245ec4b6209
